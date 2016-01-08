@@ -22,3 +22,23 @@ h5{
 body{
 	background-color: black;
 }
+p {
+	font-size: 14px;
+	line-height: 19px; 
+	margin-bottom: 19px;
+	color: white;
+}
+
+li{
+	color: blue;
+}
+
+a{
+	color: red;
+}
+
+
+img {
+	float:left;
+	margin: 10px;
+}
