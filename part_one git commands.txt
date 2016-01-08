@@ -1,0 +1,15 @@
+ Part One - Git Commands Step By Step:
+1) Create folder in my git bash terminal where my project will be saved and linked to git hub.
+	- cd /c/users/jackob
+	- mkdir global_w
+2)Creat new repository on github.com
+Type the commands on git bash terminal:
+3)git init
+4)git clone git@github.com:yakovpinhasov/Yakov-Pinhasov-Web-Page.git (the link from github for my repository)
+5)git remote add origin git@github.com:yakovpinhasov/Yakov-Pinhasov-Web-Page.git
+6) create files on the same directory in my pc: global_w.html and global_w.css
+7)git status: to check the status of my files. If it gives me the message "modyfied.." it means that their are files that been modified but not yet pushed to the repository.
+8)git add -A
+9)git commit -m "description of the changes i commited to the files"
+10)git push -u origin master. (if i am working with a group on the project and someone added files i will have to apply: git pull orgin master before the push command to pull all the files that my team added.
+ 
